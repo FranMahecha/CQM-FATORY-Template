@@ -3411,9 +3411,75 @@ body.wrap-nav-sidebar {
 }
 
 .inicioS {
-  height: 260px;
+  height: 300px;
 }
 
 .inicioP {
   height: 400px;
+}
+
+.social-icons a {
+  display: inline-block;
+  color: #fff; 
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  background-color: #ffba08; 
+  color: #fff;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form .form-control {
+  padding: 10px 15px;
+  border: 1px solid #264989;
+  border-radius: 4px;
+  font-size: 16px;
+  background: #264989;
+  color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+  border-color: #ffba08;
+  outline: none;
+}
+
+.contact-form textarea.form-control {
+  resize: vertical;
+}
+
+.contact-form .btn-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #ffba08;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-submit i {
+  margin-left: 8px;
+}
+
+.contact-form .btn-submit:hover {
+  background-color: #e0a800;
+  color: #fff;
 }

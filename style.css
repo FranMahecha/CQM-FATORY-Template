@@ -2243,14 +2243,14 @@ body,
 }
 
 .achivement-area .fun-fact .counter .timer {
-  font-size: 24px;
+  font-size: 34px;
   line-height: 1;
   font-weight: 600;
   position: relative;
   z-index: 1;
   display: inline-block;
   color: #ffffff;
-  /* margin-left: -22px; */
+  margin-left: -22px;
 }
 
 .achivement-area.bg-light .fun-fact .counter .timer {
@@ -2260,13 +2260,13 @@ body,
 .achivement-area .fun-fact .counter .medium {
   color: #ffba08;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 28px;
   font-weight: 600;
   letter-spacing: 1px;
   display: block;
 }
 
-/* .achivement-area .fun-fact .counter .timer::after {
+.achivement-area .fun-fact .counter .timer::after {
   position: absolute;
   right: -25px;
   top: 2px;
@@ -2274,18 +2274,18 @@ body,
   color: #ffba08;
   font-size: 30px;
   font-weight: 800;
-} */
+}
 
-/* .achivement-area .fun-fact .counter .timer.plus::after {
+.achivement-area .fun-fact .counter .timer.plus::after {
   position: absolute;
   right: -28px;
   top: 4px;
   content: "\f067";
   color: #ffba08;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 800;
   font-family: "Font Awesome 5 Free";
-} */
+}
 
 .achivement-area .fun-fact .counter .count {
   display: inline-block;
@@ -2322,10 +2322,12 @@ body,
   letter-spacing: 1px;
   font-weight: 600;
   margin-bottom: 15px;
-}.achivement-area .fun-fact:hover .info h5 {
-  color: #ff6600;
-  cursor: pointer;
 }
+
+/* .achivement-area .fun-fact:hover .info h5 {
+  color: #ffba08;
+  cursor: pointer;
+} */
 
 
 /* ============================================================== 
@@ -5487,13 +5489,13 @@ footer .opening-hours li .closed {
   margin-bottom: 0 !important;
 }
 
-.footer-bottom .text-right li {
+/* .footer-bottom .text-right li {
   margin-left: 15px;
 }
 
 .footer-bottom .text-right li a {
   font-weight: 600;
-}
+} */
 
 
 
