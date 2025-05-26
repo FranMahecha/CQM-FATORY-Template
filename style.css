@@ -3019,6 +3019,17 @@ body,
   transition-delay: 0.2s;
 }
 
+.work-process-area .work-pro-items .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-process-area .work-pro-items .single-item {
+  display: flex;
+}
+
+
+
 
 /* ============================================================== 
      # Work With Us
