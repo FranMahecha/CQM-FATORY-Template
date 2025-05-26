@@ -194,7 +194,7 @@ nav.bootsnav.nav-box .dropdown-menu {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 0px !important;
   font-size: 18px;
   line-height: 20px;
 }
@@ -347,7 +347,7 @@ nav.bootsnav.nav-box .dropdown-menu {
   display: flex;
   align-items: center;
   padding: 17px 0;
-  color: #ff3514;
+  color: #ffba08;
 }
 
 .navbar .attr-nav.contact li span {
@@ -362,7 +362,7 @@ nav.bootsnav.nav-box .dropdown-menu {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #ff3514;
+  color: #ffba08;
 }
 
 .navbar .attr-nav.contact li i {
@@ -373,8 +373,8 @@ nav.bootsnav.nav-box .dropdown-menu {
 
 .navbar.bootsnav.navbar-fixed .attr-nav li.btn a {
   border: 1px solid #e7e7e7;
-  color: #ff3514;
-  padding: 12px 35px !important;
+  color: #ffba08;
+  padding: 8px 35px !important;
   display: inline-block;
   font-size: 14px;
   font-weight: 600;
@@ -383,7 +383,7 @@ nav.bootsnav.nav-box .dropdown-menu {
 }
 
 .navbar.bootsnav .attr-nav li.btn a {
-  border: 2px solid #ff3514;
+  border: 2px solid #ffba08;
   display: inline-block;
   font-size: 12px;
   font-weight: 600;
@@ -453,7 +453,7 @@ nav.bootsnav .dropdown.megamenu-fw .dropdown-menu {
 }
 
 .navbar .side .widget .contact li .icon i {
-  color: #ff3514;
+  color: #ffba08;
   font-size: 40px;
   display: inline-block;
   text-align: center;
@@ -483,7 +483,7 @@ nav.navbar .quote-btn a {
   display: inline-block;
   font-size: 12px;
   font-weight: 600;
-  border: 2px solid #ff3514;
+  border: 2px solid #ffba08;
   text-transform: uppercase;
   top: -2px;
   letter-spacing: 0.6px;
@@ -526,7 +526,7 @@ nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown h6 {
 }
 
 .attr-nav ul.cart-list li.total a {
-  background: #ff3514 none repeat scroll 0 0;
+  background: #ffba08 none repeat scroll 0 0;
   display: inline-block;
   font-weight: 600 !important;
   padding: 12px 15px;
@@ -534,7 +534,7 @@ nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown h6 {
 }
 
 .attr-nav ul.cart-list li.total a:hover {
-  background: #ff3514 none repeat scroll 0 0 !important;
+  background: #ffba08 none repeat scroll 0 0 !important;
   color: #ffffff !important;
 }
 
@@ -710,7 +710,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a .badge {
   padding: 3px 10px;
   font-weight: 600;
   margin-left: 4px;
-  background: #ff3514;
+  background: #ffba08;
   color: #ffffff;
   border-radius: 5px;
 }
@@ -824,7 +824,7 @@ nav.navbar.attr-border .attr-nav::before {
 }
 
 .attr-nav > ul > li > a span.badge {
-  background-color: #ff3514;
+  background-color: #ffba08;
   color: #ffffff;
   height: 20px;
   line-height: 20px;
@@ -922,7 +922,7 @@ ul.cart-list > li.total > span {
 }
 
 .navbar.bg-dark .top-search {
-  background: #ff3514 none repeat scroll 0 0;
+  background: #ffba08 none repeat scroll 0 0;
 }
 
 .top-search form {
@@ -1080,7 +1080,7 @@ body.on-side .body-overlay {
 }
 
 .navbar .side .widget li a:hover {
-  color: #ff3514;
+  color: #ffba08;
 }
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:hover::after {
@@ -1113,7 +1113,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 }
 
 .navbar .side .widget.social li a:hover {
-  background: #ff3514 none repeat scroll 0 0;
+  background: #ffba08 none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -1190,7 +1190,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
   background: #f4f4f4 none repeat scroll 0 0;
   border: 1px solid #e7e7e7;
   border-radius: 5px;
-  color: #ff3514;
+  color: #ffba08;
   font-size: 20px;
   height: 50px;
   line-height: 48px;
@@ -1243,7 +1243,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 }
 
 .side .widget ul.link li a {
-  color: #ff3514;
+  color: #ffba08;
   display: block;
   font-weight: bold;
   letter-spacing: 1px;
@@ -1288,7 +1288,7 @@ nav.navbar.bootsnav .share ul > li > a {
 }
 
 nav.navbar.bootsnav .share.dark ul > li > a {
-  background-color: #ff3514;
+  background-color: #ffba08;
   color: #ffffff;
 }
 
@@ -1297,7 +1297,7 @@ nav.navbar.bootsnav.color-yellow .share.dark ul > li > a {
 }
 
 nav.navbar.bootsnav .share ul > li > a:hover {
-  color: #ff3514;
+  color: #ffba08;
 }
 
 nav.navbar.bootsnav.color-yellow .share ul > li > a:hover {
@@ -1403,7 +1403,7 @@ nav.navbar.bootsnav {
 
 
   nav.navbar.bootsnav.bg-theme {
-    background: #ff3514;
+    background: #ffba08;
   }
 
   nav.navbar.bootsnav.bg-theme ul.nav > li > a {
@@ -1440,7 +1440,7 @@ nav.navbar.bootsnav {
     content: "";
     height: 100%;
     width: 15%;
-    background: #ff3514;
+    background: #ffba08;
     z-index: -1;
   }
 
@@ -1462,7 +1462,7 @@ nav.navbar.bootsnav {
     content: "";
     height: 93px;
     width: 500%;
-    background: #ff3514;
+    background: #ffba08;
     z-index: -1;
   }
 
@@ -1491,11 +1491,11 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a.active {
-    color: #ff3514;
+    color: #ffba08;
   }
 
   nav.navbar.bootsnav.active-bg ul.nav > li > a.active {
-    background: #ff3514 !important;
+    background: #ffba08 !important;
   }
 
   nav.navbar.bootsnav.active-border ul.nav > li > a.active {
@@ -1510,7 +1510,7 @@ nav.navbar.bootsnav {
     content: "";
     height: 0px;
     width: 80%;
-    border-bottom: 3px solid #ff3514;
+    border-bottom: 3px solid #ffba08;
   }
 
   nav.navbar.bootsnav.small-pad ul.nav > li > a {
@@ -1538,7 +1538,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li.active > a {
-    color: #ff3514;
+    color: #ffba08;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li.active > a {
@@ -1551,7 +1551,7 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav.active-full ul.nav > li > a.active,
     nav.navbar.bootsnav.active-full ul.nav > li > a:hover {
-    background: #ff3514 none repeat scroll 0 0 !important;
+    background: #ffba08 none repeat scroll 0 0 !important;
     color: #ffffff;
   }
 
@@ -1565,7 +1565,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #ff3514;
+    color: #ffba08;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li > a:hover {
@@ -1645,7 +1645,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
-    color: #ff3514;
+    color: #ffba08;
   }
 
   nav.navbar.bootsnav.color-yellow ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
@@ -1653,7 +1653,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
-    color: #ff3514;
+    color: #ffba08;
   }
 
   nav.navbar.bootsnav.color-yellow ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
@@ -1745,7 +1745,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover {
-    color: #ff3514;
+    color: #ffba08;
   }
 
   nav.navbar.bootsnav.color-yellow ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover {
@@ -2040,7 +2040,7 @@ nav.navbar.bootsnav {
   }
 
   nav.bootsnav.navbar-sidebar ul.nav > li > a:hover {
-    color: #ff3514;
+    color: #ffba08;
   }
 
   nav.bootsnav.navbar-sidebar.color-yellow ul.nav > li > a:hover {
@@ -2382,7 +2382,7 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav ul.nav li.dropdown > ul.dropdown-menu li:hover > a {
     background-color: transparent !important;
-    color: #ff3514 !important;
+    color: #ffba08 !important;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav li.dropdown > ul.dropdown-menu li:hover > a {
@@ -2892,7 +2892,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact {
   font-size: 25px;
   position: relative;
   float: left;
-  color: #ff3514;
+  color: #ffba08;
   top: 3px;
 }
 
@@ -2926,7 +2926,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact i {
 }
 
 .attr-nav.menu li:last-child a {
-  background: #ff3514 none repeat scroll 0 0;
+  background: #ffba08 none repeat scroll 0 0;
   border-radius: 30px;
   color: #ffffff !important;
   padding: 5px 20px !important;
@@ -3357,9 +3357,63 @@ body.wrap-nav-sidebar {
 
 .attr-nav.button li a i {
   margin-right: 3px;
-  color: #ff3514;
+  color: #ffba08;
 }
 
 .attr-nav.button li a i.fa-user {
   font-weight: 500;
+}
+
+.logo-tamaño {
+  margin-top: 10px;
+  width: 90px;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video-overlay {
+  --color_37: 0, 45, 60;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(var(--color_37), 0.3);
+  pointer-events: none;
+}
+
+.mute-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 150px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 26px;
+  z-index: 1000;
+  animation: bounce 2s infinite;
+  transition: transform 0.3s ease;
+}
+
+.mute-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.inicioS {
+  height: 260px;
+}
+
+.inicioP {
+  height: 400px;
 }

@@ -74,7 +74,17 @@
 		onComplete: null       // callback method for when the element finishes updating
 	};
 	
-	function formatter(value, settings) {
-		return value.toFixed(settings.decimals);
-	}
+function formatter(value, settings) {
+  // Convierte el número a string con decimales
+  let formatted = value.toFixed(settings.decimals);
+  
+  // Separa la parte entera y decimal
+  let parts = formatted.split('.');
+  
+  // Agrega separador de miles con punto en la parte entera
+  parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+  
+  // Une de nuevo la parte entera y decimal
+  return parts.join(',');
+}
 }(jQuery));
