@@ -3886,6 +3886,7 @@ body,
 .clients-area .clients-box img {
   width: auto;
   margin: auto;
+  filter: grayscale(100%);
 }
 
 .clients-area .left-info h4 {
@@ -5407,6 +5408,10 @@ footer .fixed-shape img {
   position: relative;
 }
 
+.footer-top .logo {
+  text-align: left;
+}
+
 /* Footer Common CSS */
 footer .widget-title {
   text-transform: capitalize;
@@ -5420,6 +5425,8 @@ footer .contact {
 }
 
 footer .contact ul li {
+  display: flex;
+  align-items: flex-start;
   margin-bottom: 15px;
 }
 
@@ -5428,6 +5435,7 @@ footer .contact ul {
 }
 
 footer .contact ul li i {
+  flex-shrink: 0;
   margin-right: 15px;
   min-width: 20px;
   display: inline-block;

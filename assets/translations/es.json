@@ -21,6 +21,7 @@
     "footer.proyectos": "Proyectos",
     "footer.contacto": "Contacto",
     "footer.privacidad": "Politica de privacidad",
+    "footer.menu": "Menú",
 
     "inicio.slogan": "<strong>Garantizando calidad y eficiencia  en cada suministro</strong>",
     "inicio.nosotros": "Nosotros",
@@ -174,6 +175,7 @@
     "contacto.form.asunto": "Asunto",
     "contacto.form.correo": "Correo",
     "contacto.form.mensaje": "Mensaje",
+    "contacto.form.ubicacion": "Ubicación",
     "contacto.form.boton.enviar": "Enviar mensaje",
 
     "politica.titulo1": "Política de privacidad",
