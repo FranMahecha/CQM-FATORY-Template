@@ -661,6 +661,11 @@ button, button:focus {
   position: relative;
   text-transform: capitalize;
   letter-spacing: 1px;
+  color: #000000;
+}
+
+.site-heading p {
+  color: #000000;
 }
 
 .bg-dark .site-heading h2,
@@ -754,6 +759,19 @@ button, button:focus {
 
 .site-heading.single {
   margin-bottom: 35px;
+}
+
+.services-box .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-box .single-item {
+  display: flex;
+}
+
+.services-box .single-item .item {
+  width: 100%;
 }
 
 .carousel-shadow .owl-stage-outer {
@@ -2834,7 +2852,7 @@ body,
 
 .services-area.icon-only .services-box .item {
     padding: 60px 37px;
-    background: rgba(255, 255, 255, 0.04);
+    background: #f0f0f0;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -2862,7 +2880,7 @@ body,
     margin-bottom: 30px;
     margin-top: 20px;
     transition: all 0.35s ease-in-out;
-    color: #ffba08;
+    color: #f8961e;
     position: relative;
     z-index: 1;
 }
@@ -2887,6 +2905,7 @@ body,
 
 .services-area.icon-only .services-box .item h4 {
   margin: 0;
+  color: #000000;
 }
 
 .services-area.icon-only .services-box .item a {
@@ -2894,7 +2913,7 @@ body,
 }
 
 .services-area.icon-only .services-box .item:hover i {
-  color: #ffffff;
+  color: #ffba08;
 }
 
 /* ============================================================== 
