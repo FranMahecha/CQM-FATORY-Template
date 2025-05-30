@@ -122,7 +122,42 @@
             });
 
         });
+        $(document).ready(function () {
+            $('.blog-masonry').imagesLoaded(function () {
+                var $grid = $('.blog-masonry').isotope({
+                    itemSelector: '.blog-item',
+                    percentPosition: true,
+                    masonry: {
+                        columnWidth: '.blog-item'
+                    }
+                });
 
+                setTimeout(function () {
+                    $grid.isotope('layout');
+                }, 500);
+
+                $('.mix-item-menu').on('click', 'button', function (event) {
+                    event.preventDefault();
+                    var filterValue = $(this).attr('data-filter');
+                    $grid.isotope({ filter: filterValue });
+
+                    $(this).addClass('active').siblings().removeClass('active');
+                });
+
+                $('.collapse').on('shown.bs.collapse', function () {
+                    $grid.isotope('layout');
+                });
+
+                $('.collapse').on('hidden.bs.collapse', function () {
+                    $grid.isotope('layout');
+                });
+
+                var $firstButton = $('.mix-item-menu button').first();
+                var firstFilter = $firstButton.attr('data-filter');
+                $grid.isotope({ filter: firstFilter });
+                $firstButton.addClass('active');
+            });
+        });
 
         /* ==================================================
            # Fun Factor Init
@@ -202,7 +237,7 @@
             # Services Carousel
          ===============================================*/
         $('.services-carousel').owlCarousel({
-            loop: false,
+            loop: true,
             margin: 30,
             nav: false,
             navText: [
@@ -273,7 +308,7 @@
                     items: 2
                 },
                 1000: {
-                    items: 4
+                    items: 5
                 }
             }
         });
@@ -311,7 +346,7 @@
             # Projects Carousel
          ===============================================*/
         $('.projects-carousel').owlCarousel({
-            loop: false,
+            loop: true,
             nav: true,
             dots: false,
             items: 1,

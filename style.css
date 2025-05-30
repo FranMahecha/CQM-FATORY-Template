@@ -3843,10 +3843,10 @@ body,
     padding-top: 20px;
 }
 
-.project-details-area .content .project-info ul li span, 
-.project-details-area .content .project-info ul li span a {
+/* .project-details-area .content .project-info ul li span,  */
+.project-details-area .content .project-info ul li a {
     color: #777777;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .project-details-area .default-one-col-carousel .owl-nav {
@@ -3895,6 +3895,7 @@ body,
   display: inline-block;
   position: relative;
   z-index: 1;
+  margin-left: 150px;
 }
 
 .clients-area .left-info h4::after {
@@ -4099,6 +4100,8 @@ body,
   padding-top: 50px;
 }
 
+
+
 a.simple {
   text-transform: uppercase;
   color: #ffba08;
@@ -4221,6 +4224,15 @@ i.fas.fa-calendar {
 
 .blog-area .item .info .meta .social-share ul li.linkedin a {
   color: #0077B5;
+}
+
+.blog-area .item .info .meta .social-share ul li.descarga a {
+  color: #3B5998;
+  transition: color 0.3s ease;
+}
+
+.blog-area .item .info .meta .social-share ul li.descarga a:hover {
+  color: #ffba08; 
 }
 
 /* Pagination */

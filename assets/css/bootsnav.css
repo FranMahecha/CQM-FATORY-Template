@@ -3443,12 +3443,13 @@ body.wrap-nav-sidebar {
 }
 
 .contact-form .form-control {
-  padding: 10px 15px;
-  border: 1px solid #264989;
-  border-radius: 4px;
-  font-size: 16px;
-  background: #264989;
-  color: #fff;
+  padding: 6px 10px;
+  min-height: 35px; 
+  /* border: 1px solid #13446c; */
+  border-radius: 30px;
+  font-size: 10px;
+  /* background: #13446c; */
+  /* color: #fff; */
   transition: border-color 0.3s ease;
 }
 
@@ -3468,7 +3469,7 @@ body.wrap-nav-sidebar {
   background-color: #fff;
   color: #ffba08;
   border: none;
-  padding: 12px 20px;
+  padding: 3px 10px;
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
@@ -3483,6 +3484,15 @@ body.wrap-nav-sidebar {
   background-color: #e0a800;
   color: #fff;
 }
+
+.contact-form .form-control:hover {
+  background-color: #e0a800;
+}
+
+.contact-form .form-control:hover::placeholder {
+  color: #fff;
+}
+
 
 
 /* Contenedor del popup con tamaño fijo */
@@ -3529,4 +3539,476 @@ body.wrap-nav-sidebar {
   text-align: center;
   cursor: pointer;
 }
+
+/*=====================================
+<--  start solutek service Area Css -->
+=======================================*/
+
+.sservice-area {
+  background: #f4f4f4;
+  padding: 120px 0 88px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.service-single-box {
+  background: #fff;
+  border-radius: 15px;
+  padding: 45px 35px 42px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+
+.service-single-box::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(255, 186, 8, 0.7), rgba(255, 186, 8, 0.7)),url(/assets/img/software/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  clip-path: polygon(50% 0, 50% 0, 50% 50%, 50% 100%, 50% 100%, 50% 50%);
+  transition: 0.4s;
+}
+
+.service-icon {
+  margin-bottom: 33px;
+}
+
+.service-icon i {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  color: #ffba08;
+  font-size: 42px;
+  border-radius: 30px;
+  line-height: 80px;
+}
+
+
+h3.service-title {
+  font-size: 22px;
+  color: #050a1e;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+p.service-text {
+  margin: 0;
+  padding: 11px 0 38px;
+  transition: 0.5s;
+}
+
+.service-btn a {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.service-btn i {
+  display: inline-block;
+  color: #ffba08;
+  background: #f4f4f4;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-right: 11px;
+  transition: 0.5s;
+}
+
+.service-single-box:hover::before {
+  clip-path: polygon(
+    25% -70%,
+    75% -70%,
+    120% 50%,
+    75% 170%,
+    25% 170%,
+    -20% 50%
+  );
+}
+
+
+.service-single-box:hover .service-icon i {
+  filter: brightness(0) invert(1);
+}
+
+.service-single-box:hover h3.service-title {
+  color: #fff;
+}
+
+.service-single-box:hover p.service-text {
+  color: #fff;
+}
+
+.service-single-box:hover .service-btn i {
+  color: #fff;
+  background: #ffba08;
+}
+
+.service-shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.service-shape2 {
+  position: absolute;
+  top: 16%;
+  left: 3%;
+}
+
+.service-shape2 img {
+  animation: dance 3s alternate infinite;
+  -webkit-animation: dance 2s alternate infinite;
+  animation: dance 3s alternate infinite;
+}
+
+.service-shape3 {
+  position: absolute;
+  top: 2%;
+  left: 0;
+}
+
+/*---=====================================================
+<!-- start solutek service Area style-two-->
+=========================================================---*/
+.sservice-area.style-two {
+  padding: 120px 0 58px;
+}
+
+.sservice-area.style-two .single-service-box {
+  padding: 0 0 38px;
+  position: relative;
+  background: #fff;
+  border-radius: 15px;
+  transition: 0.5s;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.sservice-area.style-two .service-thumb {
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+.sservice-area.style-two .service-thumb img {
+  width: 100%;
+}
+
+.sservice-area.style-two .service-icon {
+  margin-bottom: 33px;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 33px;
+  background-color: #ffba08;
+  text-align: center;
+  position: absolute;
+  left: 31px;
+  top: 39%;
+  transition: 0.5s;
+}
+
+.sservice-area.style-two .service-content {
+  padding: 37px 10px 0 28px;
+}
+
+.sservice-area.style-two h3.service-title {
+  font-size: 22px;
+  color: #050a1e;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.sservice-area.style-two h3 .service-btn a {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.sservice-area.style-two .service-btn i {
+  display: inline-block;
+  color: #ffba08;
+  background: #f4f4f4;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-right: 11px;
+  transition: 0.5s;
+}
+
+.sservice-area.style-two p.service-text {
+  margin: 0;
+  padding: 9px 0 23px;
+  transition: 0.5s;
+  color: #7a7a7a;
+}
+
+.sservice-area.style-two .services-shape {
+  position: absolute;
+  bottom: 27px;
+  right: 30px;
+  transition: 0.5s;
+}
+
+/* all hover */
+.sservice-area.style-two .single-service-box:hover h3.service-title {
+  color: #ffba08;
+}
+
+.sservice-area.style-two .single-service-box:hover .service-btn a {
+  color: #ffba08;
+}
+
+.sservice-area.style-two .single-service-box:hover .service-btn i {
+  background: #ffba08;
+  color: #fff;
+}
+
+.sservice-area.style-two .single-service-box:hover .services-shape {
+  filter: brightness(1) invert(0);
+}
+
+.sservice-area.style-two .single-service-box:hover .service-thumb {
+  transform: scale(1.1);
+}
+
+/*---=====================================================
+	<!-- Start solutek case study area css -->
+=========================================================---*/
+.case-study-area {
+  padding: 100px 0 90px;
+}
+
+.case_study_nav {
+  margin: 0 0 60px;
+}
+
+.case_study_menu {
+  text-align: center;
+}
+
+.case_study_menu ul {
+  background: #f4f4f4;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.case_study_menu ul li {
+  background: transparent;
+  border: medium none;
+  font-size: 16px;
+  line-height: 1;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: 14px 30px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+  margin: 0 3px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.case_study_menu ul li:hover {
+  color: #fff;
+}
+
+.case_study_menu ul li::before {
+  animation: opacityFallbackOut 0.5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #ffba08;
+  clip-path: polygon(-1% 0, 0 0, -25% 104%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.5s;
+  width: 100%;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+.case_study_menu ul li:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.case_study_menu ul li:hover::before {
+  width: 100%;
+  z-index: -1;
+}
+
+li.current_menu_item {
+  color: #fff !important;
+  background: #ffba08 !important;
+}
+
+.case-study-single-box {
+  margin-bottom: 85px;
+  margin-right: 70px;
+}
+
+.case-study-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 35px 27px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  position: absolute;
+  bottom: 30px;
+  left: 90px;
+  width: 84%;
+  transition: 0.5s;
+}
+
+.case-study-thumb {
+  position: relative;
+}
+
+.case-study-thumb img {
+  width: 100%;
+}
+
+.case-study-title h5 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffba08;
+  font-weight: 400;
+  margin: 0;
+}
+
+.case-study-title h3 {
+  margin: 0;
+  line-height: 44px;
+}
+
+.case-study-title h3 a {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.case-study-title h3 a:hover {
+  color: #ffba08;
+}
+
+.case-study-icon {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 28px;
+  background-color: #050a1e;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.case-study-content:hover .case-study-icon {
+  background: #ffba08;
+}
+
+.case-study-icon i {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+
+/* PORTAFOLIO MENU */
+
+.blog-area .blog-items .mix-item-menu button {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    box-shadow: inherit;
+    padding: 7px 15px;
+    clip-path: polygon(6% 0, 100% 0%, 94% 100%, 0% 100%);
+}
+
+.blog-area .blog-items .mix-item-menu {
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+.blog-area .blog-items .mix-item-menu button.active {
+    background: #ffba08;
+    color: #ffffff;
+}
+
+.blog-area .blog-items .gallery-content {
+    margin: 0 -15px;
+    margin-bottom: -45px;
+}
+
+.menu-privacy {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    justify-content: flex-start; /* evita centrar si los botones no caben */
+    padding: 10px 0;
+    scrollbar-width: thin; /* Firefox */
+}
+
+.menu-privacy::-webkit-scrollbar {
+    height: 6px;
+}
+
+.menu-privacy::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.menu-privacy button {
+    white-space: nowrap;
+    padding: 8px 16px;
+    border: none;
+    background-color: #eee;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-privacy button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
 
