@@ -2,19 +2,35 @@
 function loadHTML(file, containerId, callback) {
     fetch(file)
         .then((response) => {
-            if (response.ok) {
-                return response.text();
-            } else {
-                console.error(`Error al cargar ${file}: ${response.statusText}`);
-            }
+            if (response.ok) return response.text();
+            console.error(`Error al cargar ${file}: ${response.statusText}`);
         })
         .then((html) => {
             if (html) {
                 document.getElementById(containerId).innerHTML = html;
-                if (callback) callback();
+                if (typeof callback === "function") callback();
             }
         })
         .catch((error) => console.error(`Error en fetch: ${error}`));
+}
+
+function reinitializeHeaderEffects() {
+    if (typeof $ !== 'undefined' && $.fn.bootsnav) {
+        const navbar = $('.navbar');
+        if (navbar.length) {
+            navbar.removeClass('bootsnav');
+            navbar.bootsnav();
+        } else {
+            console.warn("No se encontró .navbar para bootsnav");
+        }
+    } else {
+        console.warn("Plugin bootsnav no está cargado");
+    }
+
+    // WOW.js
+    if (typeof WOW !== 'undefined') {
+        new WOW().init();
+    }
 }
 
 /////////////////////////////////////////////////////////////////////
@@ -57,7 +73,7 @@ function updateElementsToTranslate() {
 const translatePage = (translations) => {
     elementsToTranslate.forEach((element) => {
         const key = element.getAttribute('data-i18n');
-        const translation = translations[key] || translations['en']?.[key];
+        const translation = translations[key];
         if (translation) {
             if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
                 element.setAttribute("placeholder", translation);
@@ -67,6 +83,27 @@ const translatePage = (translations) => {
         }
     });
 };
+
+// Asigna eventos a los botones de cambio de idioma
+function setupLanguageSwitch() {
+    document.querySelectorAll('.language-switch').forEach((btn) => {
+        btn.onclick = async (e) => {
+            e.preventDefault();
+            const selectedLang = btn.dataset.lang;
+            const selectedIcon = btn.dataset.icon;
+            localStorage.setItem("idiomaSeleccionado", selectedLang);
+            if (selectedIcon) {
+                localStorage.setItem("idiomaIcono", selectedIcon);
+                const languageIcon = document.getElementById("language-icon");
+                if (languageIcon) languageIcon.src = selectedIcon;
+            }
+            translations = await loadTranslations(selectedLang);
+            updateElementsToTranslate();
+            translatePage(translations);
+            setupLanguageSwitch(); 
+        };
+    });
+}
 
 const detectarIdiomaPorLocalizacion = async () => {
     try {
@@ -93,7 +130,7 @@ const cargarPagina = async () => {
     const idiomasDisponibles = ["es", "en", "fr", "de", "pt"];
     if (!idiomaGuardado || !idiomasDisponibles.includes(idiomaGuardado)) {
         const idiomaNavegador = navigator.language || navigator.userLanguage;
-        const idiomaDetectado = idiomaNavegador.split('-')[0]; 
+        const idiomaDetectado = idiomaNavegador.split('-')[0];
         idiomaGuardado = idiomasDisponibles.includes(idiomaDetectado) ? idiomaDetectado : "en";
         localStorage.setItem("idiomaSeleccionado", idiomaGuardado);
     }
@@ -101,10 +138,8 @@ const cargarPagina = async () => {
     translations = await loadTranslations(idiomaGuardado);
     updateElementsToTranslate();
     translatePage(translations);
+    setupLanguageSwitch();
 };
-
-
-
 
 // Función para el desplazamiento suave
 const setupSmoothScrolling = () => {
@@ -122,43 +157,11 @@ const setupSmoothScrolling = () => {
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
-    await cargarPagina(); 
-
-    loadHTML("header.html", "header-container", async () => {
-        updateElementsToTranslate();
-        translatePage(translations);
-
-        const languageButtons = document.querySelectorAll('.language-switch');
-        const languageIcon = document.getElementById("language-icon");
-
-        let idiomaGuardado = localStorage.getItem("idiomaSeleccionado");
-        if (idiomaGuardado) {
-            const selectedButton = document.querySelector(`.language-switch[data-lang="${idiomaGuardado}"]`);
-            if (selectedButton) {
-                const iconSrc = selectedButton.getAttribute("data-icon");
-                languageIcon.src = iconSrc;
-            }
-        }
-
-        languageButtons.forEach((btn) => {
-            btn.addEventListener('click', async (e) => {
-                e.preventDefault();
-                const selectedLang = btn.dataset.lang;
-                const selectedIcon = btn.dataset.icon;
-                localStorage.setItem("idiomaSeleccionado", selectedLang);
-                localStorage.setItem("idiomaIcono", selectedIcon);
-                languageIcon.src = selectedIcon;
-                translations = await loadTranslations(selectedLang);
-                updateElementsToTranslate();
-                translatePage(translations);
-            });
-        });
-    });
+    await cargarPagina();
 
     loadHTML("footer.html", "footer-container", () => {
         updateElementsToTranslate();
         translatePage(translations);
+        setupLanguageSwitch();
     });
 });
-
-
