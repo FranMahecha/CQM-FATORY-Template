@@ -302,10 +302,10 @@
             autoplay: true,
             responsive: {
                 0: {
-                    items: 2
+                    items: 3
                 },
                 600: {
-                    items: 2
+                    items: 3
                 },
                 1000: {
                     items: 5
