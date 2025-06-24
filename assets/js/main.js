@@ -169,6 +169,12 @@
             accY: -100
         });
 
+        $('.porcen').countTo();
+        $('.fun-fact').appear(function () {
+            $('.porcen').countTo();
+        }, {
+            accY: -100
+        });
 
         /* ==================================================
             # Magnific popup init
@@ -300,6 +306,32 @@
             ],
             dots: false,
             autoplay: true,
+            autoplayTimeout: 1000,
+            responsive: {
+                0: {
+                    items: 3
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        });
+
+        $('.factory-items').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: false,
+            rtl: true,
+            navText: [
+                "<i class='fa fa-angle-left'></i>",
+                "<i class='fa fa-angle-right'></i>"
+            ],
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 1000,
             responsive: {
                 0: {
                     items: 3
@@ -335,7 +367,31 @@
                     items: 2
                 },
                 1000: {
-                    items: 3
+                    items: 4
+                }
+            }
+        });
+
+        $('.team-carousel2').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: true,
+            rtl: true,
+            navText: [
+                "<i class='fa fa-angle-left'></i>",
+                "<i class='fa fa-angle-right'></i>"
+            ],
+            dots: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                700: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
                 }
             }
         });

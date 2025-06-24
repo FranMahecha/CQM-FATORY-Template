@@ -4063,3 +4063,165 @@ li.current_menu_item {
   background-color: #007bff;
   color: #fff;
 }
+
+/* Slogan inicio */
+.slogan-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* -----------------------------------------
+  Map CSS
+----------------------------------------- */
+.map-section {
+  overflow: hidden;
+}
+
+.map-section .map-content {
+  position: relative;
+  padding-top: 40px;
+}
+
+.map-section .map-content .map-pin {
+  position: absolute;
+  cursor: pointer;
+  width: 22px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.map-section .map-content .map-pin .pin-content {
+  position: absolute;
+  top: -50px;
+  right: -170px;
+  padding: 16px 16px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  color: #ffffff;
+  background: #ffba08;
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+/* .map-section .map-content .map-pin:hover {
+  width: 62px;
+} */
+
+.map-section .map-content .map-pin:hover .pin-content {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: unset;
+          transform: unset;
+}
+
+.map-section .map-content .active .pin-content {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: unset;
+          transform: unset;
+}
+
+.map-section .map-content .pin-1 { 
+  top: 55%;
+  left: 25%;
+}
+
+.map-section .map-content .pin-2 {
+  top: 65%;
+  left: 22%;
+}
+
+.map-section .map-content .pin-3 {
+  top: 77%;
+  left: 24%;
+}
+
+.map-section .map-content .pin-4 {
+  top: 70%;
+  left: 28%;
+}
+
+.map-section .map-content .pin-5 {
+  top: 40%;
+  left: 30%;
+}
+
+.map-section .map-content .pin-6 {
+  top: 26%;
+  left: 46%;
+}
+
+.map-section .map-content .pin-7 {
+  top: 18%;
+  left: 48%;
+}
+
+.map-section .map-content .pin-8 {
+  top: 30%;
+  left: 60%;
+}
+
+.map-section .map-content .pin-9 {
+  top: 45%;
+  left: 71%;
+}
+
+.map-section .map-content .pin-10 {
+  top: 38%;
+  left: 80%;
+}
+
+.map-section .map-content .pin-6 .pin-content {
+  left: -170px;
+  right: unset;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .map-section .map-content .map-pin {
+    width: 15px;
+  }
+  .map-section .map-content .map-pin .pin-content {
+    position: absolute;
+    width: 120px;             
+    padding: 8px 5px;
+    font-size: 12px;
+    right: -100px;
+    top: -100px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .map-section .map-content .active .pin-content {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .map-section .map-content .map-pin:hover {
+    width: 30px;
+  }
+  .map-section .map-content .pin-1 .pin-content {
+    top: unset;
+    bottom: -50px;
+  }
+  .map-section .map-content .pin-2 .pin-content {
+    top: unset;
+    bottom: -50px;
+    left: -100px;
+    right: unset;
+  }
+  .map-section .map-content .pin-5 .pin-content {
+    left: -100px;
+    right: unset;
+  }
+  .map-section .map-content .pin-6 .pin-content {
+    left: -100px;
+    right: unset;
+    margin-right: 90px;
+  }
+}
+
+

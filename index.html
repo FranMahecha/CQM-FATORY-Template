@@ -112,19 +112,14 @@
                             <a href="index.html" data-i18n="header.inicio">Inicio</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown"
-                                data-i18n="header.servicios">Servicios</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="servicios.html" data-i18n="header.servicios.servicio1">Servicio 1</a></li>
-                                <li><a href="software.html" data-i18n="header.servicios.servicio2">Servicio 2</a></li>
-                            </ul>
+                            <a href="servicios.html" data-i18n="header.servicios">Servicios</a>
                         </li>
                         <li>
                             <a href="nosotros.html" data-i18n="header.nosotros">Nosotros</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="proyecto.html" data-i18n="header.proyecto">Proyectos</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="contacto.html" data-i18n="header.contacto">Contacto</a>
                         </li>
@@ -215,7 +210,7 @@
             <div class="carousel-inner carousel-zoom">
                 <div class="carousel-item active">
                     <video class="video-background" autoplay muted loop playsinline>
-                        <source src="assets/videos/original.mp4" type="video/mp4">
+                        <source src="assets/videos/original.mp4" type="video/mp4" alt="Video principal">
                         Tu navegador no soporta la etiqueta de video.
                     </video>
                     <div class="box-table">
@@ -224,7 +219,8 @@
                                 <div class="row">
                                     <div class="col-lg-10 offset-lg-1">
                                         <div class="content">
-                                            <h1 data-animation="animated slideInDown" data-i18n="inicio.slogan"></h1>
+                                            <h1 class="slogan-title" data-animation="animated slideInDown"
+                                                data-i18n="inicio.slogan"></h1>
                                             <a data-animation="animated slideInUp"
                                                 class="btn circle btn-light effect btn-md angle" href="proyecto.html"
                                                 data-i18n="inicio.boton">View Projects</a>
@@ -271,8 +267,8 @@
                 </div>
                 <div class="col-lg-6 thumb-box">
                     <div class="thumb">
-                        <img src="assets/img/Inicio/años1.jpg" alt="Thumb">
-                        <div class="video bg-cover" style="background-image: url(assets/img/Inicio/500x500.jpg);">
+                        <img src="assets/img/Inicio/años1.jpg" alt="9 años de experiencia">
+                        <div class="video bg-cover" style="background-image: url(assets/img/Inicio/miniatura3.png);">
                             <a href="assets/videos/CQM Promo 2024.mp4" class="popup-youtube video-play-button">
                                 <i class="ti-control-play"></i>
                             </a>
@@ -311,7 +307,8 @@
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/Inicio/servicios1.jpg" class="inicioS" alt="Thumb">
+                                <img src="assets/img/Inicio/sermacro1.jpeg" class="inicioS"
+                                    alt="Trazabilidad y gestión de materiales">
                             </div>
                             <div class="info">
                                 <i class="flaticon-milling-machine"></i>
@@ -328,7 +325,8 @@
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/Inicio/servicios2.jpg" class="inicioS" alt="Thumb">
+                                <img src="assets/img/Inicio/sermacro2.jpeg" class="inicioS"
+                                    alt="Asistencia técnica especializada">
                             </div>
                             <div class="info">
                                 <i class="flaticon-wind-energy"></i>
@@ -345,7 +343,8 @@
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/Inicio/servicios3.jpg" class="inicioS" alt="Thumb">
+                                <img src="assets/img/Inicio/sermacro4.jpeg" class="inicioS"
+                                    alt="Diseño y validación de ingeniería">
                             </div>
                             <div class="info">
                                 <i class="flaticon-building"></i>
@@ -359,125 +358,7 @@
                             </div>
                         </div>
                         <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Inicio/servicios4.jpg" class="inicioS" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-engineer-1"></i>
-                                <h4>
-                                    <a data-i18n="inicio.nosotros.supervision">Mechanical Engineering</a>
-                                </h4>
-                                <div class="button text-right">
-                                    <span>04</span>
-                                    <a href="servicios.html" data-i18n="boton">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Inicio/servicios5.jpg" class="inicioS" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-growth"></i>
-                                <h4>
-                                    <a data-i18n="inicio.nosotros.inspeccion">Construction & Engineering</a>
-                                </h4>
-                                <div class="button">
-                                    <span>05</span>
-                                    <a href="servicios.html" data-i18n="boton">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Inicio/servicios6.jpg" class="inicioS" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-process"></i>
-                                <h4>
-                                    <a data-i18n="inicio.nosotros.validacion">Power & Energy</a>
-                                </h4>
-                                <div class="button text-right">
-                                    <span>06</span>
-                                    <a href="servicios.html" data-i18n="boton">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Inicio/servicios7.jpg" class="inicioS" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-turbo"></i>
-                                <h4>
-                                    <a data-i18n="inicio.nosotros.evaluacion">Ship Building Insudtry</a>
-                                </h4>
-                                <div class="button text-right">
-                                    <span>07</span>
-                                    <a href="servicios.html" data-i18n="boton">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Inicio/servicio11.jpg" class="inicioS" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-growth"></i>
-                                <h4>
-                                    <a data-i18n="inicio.nosotros.gestion">Mechanical Engineering</a>
-                                </h4>
-                                <div class="button text-right">
-                                    <span>08</span>
-                                    <a href="servicios.html" data-i18n="boton">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Inicio/servicios9.jpg" class="inicioS" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-factory-2"></i>
-                                <h4>
-                                    <a data-i18n="inicio.nosotros.optimizacion">Construction & Engineering</a>
-                                </h4>
-                                <div class="button">
-                                    <span>09</span>
-                                    <a href="servicios.html" data-i18n="boton">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Inicio/servicios10.JPG" class="inicioS" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-wind-energy"></i>
-                                <h4>
-                                    <a data-i18n="inicio.nosotros.coordinacion">Power & Energy</a>
-                                </h4>
-                                <div class="button text-right">
-                                    <span>10</span>
-                                    <a href="servicios.html" data-i18n="boton">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
+
 
                     </div>
                 </div>
@@ -492,13 +373,12 @@
         <div class="container">
             <div class="clients-item-box">
                 <div class="row align-center">
-                    <div class="col-lg-5 left-info">
-                        <h4 data-i18n="proyectos.clientes">Our Partners</h4>
-                        <!-- <p>
-                            Forming two comfort invited. Yet she income effect edward. Entire desire way design few. Mrs sentiments led solicitude estimating friendship fat. Meant those event 
-                        </p> -->
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="site-heading text-center">
+                            <h2 data-i18n="proyectos.clientes">Our Partners</h2>
+                        </div>
                     </div>
-                    <div class="col-lg-7 clients-box">
+                    <div class="col-lg-12 clients-box">
                         <div class="clients-items owl-carousel owl-theme text-center">
                             <div class="single-item">
                                 <a href="#"><img src="assets/img/Clientes/1.png" alt="Clients"></a>
@@ -525,7 +405,7 @@
                                 <a href="#"><img src="assets/img/Clientes/9.png" alt="Clients"></a>
                             </div>
                             <div class="single-item">
-                                <a href="#"><img src="assets/img/Clientes/10.png" alt="Clients"></a>
+                                <a href="#"><img src="assets/img/Clientes/12.png" alt="Clients"></a>
                             </div>
                             <div class="single-item">
                                 <a href="#"><img src="assets/img/Clientes/11.png" alt="Clients"></a>
@@ -552,11 +432,14 @@
                     <div class="fun-fact">
                         <div class="counter">
                             <div class="count">
-                                <div class="timer plus" data-to="16" data-speed="5000"></div>
+                                <div class="timer plus" data-to="17" data-speed="5000"></div>
                             </div>
                         </div>
                         <div class="info">
                             <h5 data-i18n="inicio.nosotros.paises">Clients</h5>
+                            <p data-i18n="inicio.texto.estadisticas1">
+                                Plan upon yet way get cold spot its week. Almost do am or limits.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -564,15 +447,48 @@
                     <div class="fun-fact">
                         <div class="counter">
                             <div class="count">
-                                <div class="timer plus" data-to="19" data-speed="5000"></div>
+                                <div class="timer" data-to="12" data-speed="5000"></div>
                             </div>
                         </div>
                         <div class="info">
                             <h5 data-i18n="inicio.nosotros.fabricantes">Countries</h5>
+                            <p data-i18n="inicio.texto.estadisticas2">
+                                Plan upon yet way get cold spot its week. Almost do am or limits.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 item mb-3">
+                    <div class="fun-fact">
+                        <div class="counter">
+                            <div class="count">
+                                <div class="timer" data-to="18" data-speed="5000"></div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5 data-i18n="inicio.nosotros.dibujo" style="white-space: nowrap;">Clients</h5>
+                            <p data-i18n="inicio.texto.estadisticas3">
+                                Plan upon yet way get cold spot its week. Almost do am or limits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 item  mb-3 mb-md-0 mt-5">
+                    <div class="fun-fact">
+                        <div class="counter">
+                            <div class="count">
+                                <div class="timer " data-to="400" data-speed="5000"></div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5 data-i18n="inicio.nosotros.contenedor" style="white-space: nowrap;">Countries</h5>
+                            <p data-i18n="inicio.texto.estadisticas4">
+                                Plan upon yet way get cold spot its week. Almost do am or limits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 item  mb-3 mb-md-0 mt-5">
                     <div class="fun-fact">
                         <div class="counter">
                             <div class="count">
@@ -580,43 +496,25 @@
                             </div>
                         </div>
                         <div class="info">
-                            <h5 data-i18n="inicio.nosotros.dibujo">Clients</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 item">
-                    <div class="fun-fact">
-                        <div class="counter">
-                            <div class="count">
-                                <div class="timer " data-to="18" data-speed="5000"></div>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <h5 data-i18n="inicio.nosotros.contenedor">Countries</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 item">
-                    <div class="fun-fact">
-                        <div class="counter">
-                            <div class="count">
-                                <div class="timer plus" data-to="354" data-speed="5000"></div>
-                            </div>
-                        </div>
-                        <div class="info">
                             <h5 data-i18n="inicio.nosotros.prototipos">Projects</h5>
+                            <p data-i18n="inicio.texto.estadisticas5">
+                                Plan upon yet way get cold spot its week. Almost do am or limits.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 item">
+                <div class="col-lg-4 item  mb-3 mb-md-0 mt-5">
                     <div class="fun-fact">
                         <div class="counter">
                             <div class="count">
-                                <div class="timer" data-to="400" data-speed="5000"></div>
+                                <div class="porcen plus" data-to="97" data-speed="5000" style="margin-right: 10px;"></div>
                             </div>
                         </div>
                         <div class="info">
                             <h5 data-i18n="inicio.nosotros.tonelada">Projects</h5>
+                            <p data-i18n="inicio.texto.estadisticas6">
+                                Plan upon yet way get cold spot its week. Almost do am or limits.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -624,6 +522,170 @@
         </div>
     </div>
     <!-- End Achivement -->
+
+    <!-- Start factory Area
+    ============================================= -->
+    <div class="clients-area default-padding-bottom">
+        <div class="container">
+            <div class="clients-item-box">
+                <div class="row align-center">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="site-heading text-center">
+                            <h2 data-i18n="inicio.fabricantes">Our Partners</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 clients-box">
+                        <div class="factory-items owl-carousel owl-theme text-center">
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/1.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/2.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/3.jpg" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/4.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/5.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/6.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/7.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/8.jpg" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/9.jpg" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/10.jpg" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/11.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/12.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/13.jpg" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/14.jpg" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/15.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/16.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/17.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/18.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/19.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/20.png" alt="Factory"></a>
+                            </div>
+                            <div class="single-item">
+                                <a href="#"><img src="assets/img/fabricantes/21.png" alt="Factory"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End factory Area -->
+
+    <!-- start map section -->
+    <section class="map-section pb-100 bg-light mb-5">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2 data-i18n="header.proyecto"></h2>
+                        <p data-i18n="proyectos.texto"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-content">
+                <div class="map-pin pin-1">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin1">Pin1 <br> New York, USA</span>
+                    </div>
+                </div>
+                <div class="map-pin pin-2">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin2">Pin2 <br> New York, USA</span>
+                    </div>
+                </div>
+                <div class="map-pin pin-3">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin3">Pin3 <br> New York, USA</span>
+                    </div>
+                </div>
+                <div class="map-pin pin-4">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin4">Pin4 <br> New York, USA</span>
+                    </div>
+                </div>
+                <div class="map-pin pin-5">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin5">Pin5 <br> New York, USA</span>
+                    </div>
+                </div>
+                <!-- <div class="map-pin pin-6">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin6">Pin6 <br> New York, USA</span>
+                    </div>
+                </div> -->
+                <div class="map-pin pin-7">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin7">Pin7 <br> New York, USA</span>
+                    </div>
+                </div>
+                <div class="map-pin pin-8">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin8">Pin8 <br> New York, USA</span>
+                    </div>
+                </div>
+                <div class="map-pin pin-9">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin9">Pin9 <br> New York, USA</span>
+                    </div>
+                </div>
+                <div class="map-pin pin-10">
+                    <div class='pin'><img src="assets/img/pin.png" alt="Pin"></div>
+                    <div class="pin-content">
+                        <span data-i18n="mapa.pin10">Pin10 <br> New York, USA</span>
+                    </div>
+                </div>
+                <div class="bg-image">
+                    <img src="assets/img/bg-map-2.png" alt="Map Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end map section -->
 
     <!-- Start Projects Area 
     ============================================= -->
@@ -637,30 +699,29 @@
                             <div class="row align-center">
                                 <div class="col-lg-6 info">
                                     <h4 data-i18n="proyectos.proyecto">Running Prjects</h4>
-                                    <h2>PE-COYA - Enlace 500kV Mantaro - Nueva Yanango – Carapongo y Subestaciones
-                                        Asociadas</h2>
+                                    <h2>PLEX - Cardones-Polpaico 2x500 Kv</h2>
                                     <ul>
                                         <li>
                                             <h5 data-i18n="proyecto.tonelada">Project Type</h5>
-                                            <span>41 MT</span>
+                                            <span>46.000 MT</span>
                                         </li>
                                         <li>
                                             <h5 data-i18n="proyecto.prototipo">Duration</h5>
-                                            <span>1</span>
+                                            <span>8</span>
                                         </li>
                                         <li>
                                             <h5 data-i18n="proyecto.paisd">Budget</h5>
-                                            <span>Colombia</span>
+                                            <span>Chile</span>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 thumb-box">
                                     <div class="thumb">
                                         <img class="inicioP"
-                                            src="assets/img/Proyectos/NGCP – Calaca-Dasmarinas 230kV Transmission Line Reinforcement – Batangas 10pro.jpg"
-                                            alt="Thumb">
+                                            src="assets/img/Proyectos/PLEX - Cardones-Polpaico 2x500 Kv.jpg"
+                                            alt="PE-COYA">
                                         <div class="overlay">
-                                            <a href="assets/img/Proyectos/NGCP – Calaca-Dasmarinas 230kV Transmission Line Reinforcement – Batangas 10pro.jpg"
+                                            <a href="assets/img/Proyectos/PLEX - Cardones-Polpaico 2x500 Kv.jpg"
                                                 class="item popup-gallery"><i class="fa fa-plus"></i></a>
                                         </div>
                                     </div>
@@ -673,12 +734,47 @@
                             <div class="row align-center">
                                 <div class="col-lg-6 info">
                                     <h4 data-i18n="proyectos.proyecto">Running Prjects</h4>
-                                    <h2>CO-ABCU - Conexión de los parques eólicos Alpha y Beta a la SE Nueva Cuestecitas
+                                    <h2>SOLA - Líneas de transmisión Sabanalarga - Bolívar
                                         500 kV</h2>
                                     <ul>
                                         <li>
                                             <h5 data-i18n="proyecto.tonelada">Project Type</h5>
-                                            <span>5.600 MT</span>
+                                            <span>16.600 MT</span>
+                                        </li>
+                                        <li>
+                                            <h5 data-i18n="proyecto.paisf">Duration</h5>
+                                            <span>India</span>
+                                        </li>
+                                        <li>
+                                            <h5 data-i18n="proyecto.paisd">Budget</h5>
+                                            <span>Colombia</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 thumb-box">
+                                    <div class="thumb">
+                                        <img class="inicioP"
+                                            src="assets/img/Proyectos/SOLA - LÍNEA DE TRANSMISIÓN SABANALARGA - BOLÍVAR 500KV - UPME 07 - 2017 16600MT.jpg"
+                                            alt="SOLA - Líneas de transmisión Sabanalarga">
+                                        <div class="overlay">
+                                            <a href="assets/img/Proyectos/SOLA - LÍNEA DE TRANSMISIÓN SABANALARGA - BOLÍVAR 500KV - UPME 07 - 2017 16600MT.jpg"
+                                                class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="row align-center">
+                                <div class="col-lg-6 info">
+                                    <h4 data-i18n="proyectos.proyecto">Running Prjects</h4>
+                                    <h2>TCE-JURC-001-Línea de Transmisión La Virginia – Nueva Esperanza 500kV</h2>
+                                    <ul>
+                                        <li>
+                                            <h5 data-i18n="proyecto.tonelada">Project Type</h5>
+                                            <span>13.675 MT</span>
                                         </li>
                                         <li>
                                             <h5 data-i18n="proyecto.prototipo">Duration</h5>
@@ -693,8 +789,78 @@
                                 <div class="col-lg-6 thumb-box">
                                     <div class="thumb">
                                         <img class="inicioP"
+                                            src="assets/img/Proyectos/PLEX - Encuentro - Lagunas 2x220 kV.jpg"
+                                            alt="TCE-JURC-030-Línea de Transmisión La Virginia">
+                                        <div class="overlay">
+                                            <a href="assets/img/Proyectos/PLEX - Encuentro - Lagunas 2x220 kV.jpg"
+                                                class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="row align-center">
+                                <div class="col-lg-6 info">
+                                    <h4 data-i18n="proyectos.proyecto">Running Prjects</h4>
+                                    <h2>SITU - Líneas de Transmisión a 500 kV Doble Circuito y 230 kV asociadas al Proyecto Ituango</h2>
+                                    <ul>
+                                        <li>
+                                            <h5 data-i18n="proyecto.tonelada">Project Type</h5>
+                                            <span>27.000 MT</span>
+                                        </li>
+                                        <li>
+                                            <h5 data-i18n="proyecto.paisf">Duration</h5>
+                                            <span>India</span>
+                                        </li>
+                                        <li>
+                                            <h5 data-i18n="proyecto.paisd">Budget</h5>
+                                            <span>Colombia</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 thumb-box">
+                                    <div class="thumb">
+                                        <img class="inicioP"
+                                            src="assets/img/Proyectos/SITU - Líneas de Transmisión a 500 kV Doble Circuito y 230 kV asociadas al Proyecto Ituango amitasha.jpg"
+                                            alt="TCE-JURC-030-Línea de Transmisión La Virginia">
+                                        <div class="overlay">
+                                            <a href="assets/img/Proyectos/SITU - Líneas de Transmisión a 500 kV Doble Circuito y 230 kV asociadas al Proyecto Ituango amitasha.jpg"
+                                                class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="row align-center">
+                                <div class="col-lg-6 info">
+                                    <h4 data-i18n="proyectos.proyecto">Running Prjects</h4>
+                                    <h2>COCU - Copey 500 kV - Copey 220 kV - Cuestecitas 220 kV - Nueva Cuestecitas 500 kV - Fundación 220 kV</h2>
+                                    <ul>
+                                        <li>
+                                            <h5 data-i18n="proyecto.tonelada">Project Type</h5>
+                                            <span>14.000 MT</span>
+                                        </li>
+                                        <li>
+                                            <h5 data-i18n="proyecto.prototipo">Duration</h5>
+                                            <span>14</span>
+                                        </li>
+                                        <li>
+                                            <h5 data-i18n="proyecto.paisd">Budget</h5>
+                                            <span>Colombia</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 thumb-box">
+                                    <div class="thumb">
+                                        <img class="inicioP"
                                             src="assets/img/Proyectos/COCU - Copey 500 kV - Copey 220 kV - Cuestecitas 220 kV - Nueva Cuestecitas 500 kV - Fundación 220 kV 14000mt.jpg"
-                                            alt="Thumb">
+                                            alt="TCE-JURC-030-Línea de Transmisión La Virginia">
                                         <div class="overlay">
                                             <a href="assets/img/Proyectos/COCU - Copey 500 kV - Copey 220 kV - Cuestecitas 220 kV - Nueva Cuestecitas 500 kV - Fundación 220 kV 14000mt.jpg"
                                                 class="item popup-gallery"><i class="fa fa-plus"></i></a>
@@ -709,29 +875,29 @@
                             <div class="row align-center">
                                 <div class="col-lg-6 info">
                                     <h4 data-i18n="proyectos.proyecto">Running Prjects</h4>
-                                    <h2>LT 220 kV SRI-MAU</h2>
+                                    <h2>MAMO - Linea de Transmision Mantaro - Montalvo y Subestaciones Asociadas</h2>
                                     <ul>
                                         <li>
                                             <h5 data-i18n="proyecto.tonelada">Project Type</h5>
-                                            <span>2.300 MT</span>
+                                            <span>36.500 MT</span>
                                         </li>
                                         <li>
                                             <h5 data-i18n="proyecto.prototipo">Duration</h5>
-                                            <span>6</span>
+                                            <span>22</span>
                                         </li>
                                         <li>
                                             <h5 data-i18n="proyecto.paisd">Budget</h5>
-                                            <span>India</span>
+                                            <span>Perú</span>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 thumb-box">
                                     <div class="thumb">
                                         <img class="inicioP"
-                                            src="assets/img/Proyectos/PLEX - Encuentro - Lagunas 2x220 kV.jpg"
-                                            alt="Thumb">
+                                            src="assets/img/Proyectos/MAMO - Linea de Transmision Mantaro - Montalvo y Subestaciones Asociadas skipper.jpg"
+                                            alt="TCE-JURC-030-Línea de Transmisión La Virginia">
                                         <div class="overlay">
-                                            <a href="assets/img/Proyectos/PLEX - Encuentro - Lagunas 2x220 kV.jpg"
+                                            <a href="assets/img/Proyectos/MAMO - Linea de Transmision Mantaro - Montalvo y Subestaciones Asociadas skipper.jpg"
                                                 class="item popup-gallery"><i class="fa fa-plus"></i></a>
                                         </div>
                                     </div>
@@ -746,145 +912,7 @@
     </div>
     <!-- End Projects Area -->
 
-    <!-- Start Team Area 
-    ============================================= -->
-    <div class="team-area default-padding-top bottom-less bg-gray mb-5">
-        <!-- Fixed Shape  -->
-        <div class="fixed-shape">
-            <img src="assets/img/shape/4.svg" alt="Shape">
-        </div>
-        <!-- End Fixed Shape  -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <!-- <h4>Meet our experts</h4> -->
-                        <h2 data-i18n="nosotros.equipo">Team Members</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="team-items text-center">
-                <div class="row">
-                    <!-- Single Item -->
-                    <div class="col-lg-3 col-md-6 single-item">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Equipo/jvc.png" alt="Thumb">
-                                <div class="info">
-                                    <h4>Jorge Villate Castillo</h4>
-                                    <span data-i18n="nosotros.equipo1">Founder of Factry</span>
-                                </div>
-                                <div class="overlay text-light">
-                                    <h4>Jorge Villate Castillo</h4>
-                                    <p data-i18n="nosotros.equipo1"></p>
-                                </div>
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li class="linkedin">
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-lg-3 col-md-6 single-item">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Equipo/jvi.png" alt="Thumb">
-                                <div class="info">
-                                    <h4>Jorge Villate Isaza</h4>
-                                    <span data-i18n="nosotros.equipo2">Architect</span>
-                                </div>
-                                <div class="overlay text-light">
-                                    <h4>Jorge Villate Isaza</h4>
-                                    <p data-i18n="nosotros.equipo2">
-                                        Btuff sight equal of my woody. Him children bringing goodness suitable she
-                                        entirely put far daughter.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li class="linkedin">
-                                        <a
-                                            href="https://www.linkedin.com/in/jorge-villate-isaza-5719a569?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIstL0N0HSpumNv%2BCkq4%2FCQ%3D%3D">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-lg-3 col-md-6 single-item">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Equipo/javi.png" alt="Thumb">
-                                <div class="info">
-                                    <h4>Jose Alejandro Villate Isaza</h4>
-                                    <span data-i18n="nosotros.equipo3">Engineering Officer</span>
-                                </div>
-                                <div class="overlay text-light">
-                                    <h4>Jose Alejandro Villate Isaza</h4>
-                                    <p data-i18n="nosotros.equipo3">
-                                        Btuff sight equal of my woody. Him children bringing goodness suitable she
-                                        entirely put far daughter.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/jose-alejandro-villate-isaza-b23562173/">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-lg-3 col-md-6 single-item">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/Equipo/jcmi.png" alt="Thumb">
-                                <div class="info">
-                                    <h4>Julian Camilo Villate Isaza</h4>
-                                    <span data-i18n="nosotros.equipo4">Engineering Officer</span>
-                                </div>
-                                <div class="overlay text-light">
-                                    <h4>Julian Camilo Villate Isaza</h4>
-                                    <p data-i18n="nosotros.equipo4">
-                                        Btuff sight equal of my woody. Him children bringing goodness suitable she
-                                        entirely put far daughter.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li class="linkedin">
-                                        <a
-                                            href="https://www.linkedin.com/in/julian-camilo-villate-isaza-7b71342a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Team Area -->
-
-    <!-- Start Footer 
+     <!-- Start Footer 
     ============================================= -->
     <footer class="bg-dark text-light">
         <!-- Footer Top -->
@@ -905,7 +933,7 @@
                         </div>
                     </div>
                     <div class="col-5 col-lg-3 phone text-right ">
-                        <h4><i class="fas fa-phone"></i> +57 312 486 8490</h4>
+                        <h4><i class="fas fa-phone"></i> +91 7890258182</h4>
                     </div>
                 </div>
             </div>
@@ -923,7 +951,7 @@
                             <ul>
                                 <li>
                                     <i class="fas fa-map-marker-alt"></i>
-                                    Colombia. Balcones de Buena Vista CS9, Cajicá
+                                    COLOMBIA. BALCONES DE BUENA VISTA CS9, CAJICÁ
                                 </li>
                                 <li>
                                     <i class="fas fa-map-marker-alt"></i>
@@ -955,12 +983,12 @@
                                 <li>
                                     <a href="servicios.html" data-i18n="servicio.titulo3">Control de calidad</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="servicios.html" data-i18n="servicio.titulo4">Logistica y control</a>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <a href="software.html" data-i18n="servicio.software1">software</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -974,11 +1002,14 @@
                                     <a href="index.html" data-i18n="header.inicio">Inicio</a>
                                 </li>
                                 <li>
-                                    <a href="nosotros.html" data-i18n="header.nosotros">Nosotros</a>
+                                    <a href="servicios.html" data-i18n="header.servicios">Servicio</a>
                                 </li>
                                 <li>
-                                    <a href="proyecto.html" data-i18n="header.proyecto">Proyecto</a>
+                                    <a href="nosotros.html" data-i18n="header.nosotros">Nosotros</a>
                                 </li>
+                                <!-- <li>
+                                    <a href="proyecto.html" data-i18n="header.proyecto">Proyecto</a>
+                                </li> -->
                                 <li>
                                     <a href="contacto.html" data-i18n="header.contacto">Contacto</a>
                                 </li>
@@ -990,14 +1021,15 @@
                     <div class="col-lg-3 col-md-6 single-item order-1  order-lg-4 mb-5 mb-md-0">
                         <div class="f-item contact-form">
                             <h4 class="widget-title" data-i18n="footer.contacto">Contacto</h4>
-                            <form action="#" method="post">
+                            <form id="footer-form" action="https://formspree.io/f/mjkreryp" method="post">
                                 <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
                                 <input type="text" name="asunto" class="form-control" placeholder="Asunto" required>
-                                <input type="text" name="correo" class="form-control" placeholder="Correo" required>
+                                <input type="email" name="email" class="form-control" placeholder="Correo" required>
                                 <textarea name="mensaje" class="form-control" rows="1" placeholder="Mensaje"
                                     required></textarea>
                                 <button type="submit" class="btn-submit"><i class="fa fa-paper-plane"></i></button>
                             </form>
+                            <div id="footer-message"></div>
                         </div>
                     </div>
                     <!-- End Single Item -->
@@ -1050,6 +1082,7 @@
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/idioma.js"></script>
+    <script src="assets/js/form.js"></script>
     <!-- <script src="assets/js/videoNosotros.js"></script> -->
 </body>
 
