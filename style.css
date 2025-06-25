@@ -1887,6 +1887,10 @@ body,
   padding-left: 10%;
 }
 
+.about-area .thumb-box2 {
+  padding-right: 10%;
+}
+
 .about-area .thumb {
   position: relative;
   z-index: 1;

@@ -414,6 +414,28 @@
         });
 
         /* ==================================================
+            # About Carousel
+         ===============================================*/
+        $('.about-carousel').owlCarousel({
+            loop: true,
+            nav: false,
+            dots: false,
+            items: 1,
+            autoplay: true,
+            autoplayTimeout: 1500
+        });
+
+        $('.about-carousel2').owlCarousel({
+            loop: true,
+            nav: false,
+            dots: false,
+            items: 1,
+            autoplay: true,
+            rtl: true,
+            autoplayTimeout: 1500
+        });
+
+        /* ==================================================
             # Default One Colums Carousel
          ===============================================*/
         $('.default-one-col-carousel').owlCarousel({
