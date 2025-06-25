@@ -151,11 +151,34 @@
                 $('.collapse').on('hidden.bs.collapse', function () {
                     $grid.isotope('layout');
                 });
-
-                var $firstButton = $('.mix-item-menu button').first();
-                var firstFilter = $firstButton.attr('data-filter');
-                $grid.isotope({ filter: firstFilter });
-                $firstButton.addClass('active');
+                var hash = window.location.hash.replace('#', '');
+                var filtroAplicado = false;
+                if (hash) {
+                    var item = document.getElementById(hash);
+                    if (item) {
+                        var filterClass = Array.from(item.classList).find(cls =>
+                            ['sgi', 'af', 'al', 'sv', 'si', 'in', 'co', 'ac', 'pd'].includes(cls)
+                        );
+                        if (filterClass) {
+                            var btn = document.querySelector('.menu-privacy button[data-filter=".' + filterClass + '"]');
+                            if (btn) {
+                                $grid.isotope({ filter: '.' + filterClass });
+                                $('.menu-privacy button').removeClass('active');
+                                $(btn).addClass('active');
+                                filtroAplicado = true;
+                                setTimeout(function () {
+                                    item.scrollIntoView({ behavior: "smooth", block: "center" });
+                                }, 500);
+                            }
+                        }
+                    }
+                }
+                if (!filtroAplicado) {
+                    var $firstButton = $('.mix-item-menu button').first();
+                    var firstFilter = $firstButton.attr('data-filter');
+                    $grid.isotope({ filter: firstFilter });
+                    $firstButton.addClass('active');
+                }
             });
         });
 
@@ -470,6 +493,7 @@
         /* ==================================================
             Preloader Init
          ===============================================*/
+
         $(window).on('load', function () {
             // Animate loader off screen
             $(".se-pre-con").fadeOut("slow");;

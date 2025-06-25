@@ -4224,4 +4224,11 @@ li.current_menu_item {
   }
 }
 
+/* politicas */
+.collapse:not(.show) .img-collapse {
+    display: none;
+}
+.collapse.show .img-collapse {
+    display: block;
+}
 

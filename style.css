@@ -3091,6 +3091,130 @@ margin-top: 100px;
 }
 
 
+/* ============================================================== 
+     # politicas
+=================================================================== */
+
+
+
+.work-process-area .work-pro-items2 .item {
+  border: 1px solid #e7e7e7;
+  padding: 30px 20px;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 180px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease-in-out; 
+}
+
+.work-process-area .work-pro-items2 .item-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+}
+
+
+.work-process-area .work-pro-items2 .item i {
+  display: inline-block;
+  color: #ffba08;
+  font-size: 60px;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.work-process-area .work-pro-items2 .item:hover i {
+  transform: scale(1.1); 
+}
+
+
+.work-process-area .work-pro-items2 .item h4 {
+  position: relative;
+  z-index: 1;
+  line-height: 1.2;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 10px;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.work-process-area .work-pro-items2 .item h4 span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 80px;
+  z-index: -1;
+  color: #f4f4f4;
+  opacity: 0.7;
+  font-weight: 900;
+}
+
+.work-process-area .work-pro-items2 .single-item {
+  margin-bottom: 30px;
+}
+
+.work-process-area .work-pro-items2 .item::before, 
+.work-process-area .work-pro-items2 .item::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #ffba08;
+}
+
+.work-process-area .work-pro-items2 .item .item-inner::before, 
+.work-process-area .work-pro-items2 .item .item-inner::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #ffba08;
+}
+
+.work-process-area .work-pro-items2 .item:hover::before, 
+.work-process-area .work-pro-items2 .item:hover::after {
+  width: 100%;
+}
+
+.work-process-area .work-pro-items2 .item:hover .item::before, 
+.work-process-area .work-pro-items2 .item:hover .item::after {
+  height: 100%;
+}
+
+.work-process-area .work-pro-items2 .item::before {
+  top: 0;
+  left: 0;
+}
+
+.work-process-area .work-pro-items2 .item::after {
+  bottom: 0;
+  right: 0;
+}
+
+
+.work-process-area .work-pro-items2 .item .item::before {
+  top: 0;
+  left: 0;
+}
+
+.work-process-area .work-pro-items2 .item .item::after {
+  bottom: 0;
+  right: 0;
+}
+
 
 
 /* ============================================================== 
