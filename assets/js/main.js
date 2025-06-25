@@ -445,7 +445,7 @@
             dots: false,
             items: 1,
             autoplay: true,
-            autoplayTimeout: 1500
+            autoplayTimeout: 3000
         });
 
         $('.about-carousel2').owlCarousel({
@@ -455,7 +455,7 @@
             items: 1,
             autoplay: true,
             rtl: true,
-            autoplayTimeout: 1500
+            autoplayTimeout: 3000
         });
 
         /* ==================================================
