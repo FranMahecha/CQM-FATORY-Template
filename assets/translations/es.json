@@ -187,16 +187,15 @@
     "software.web.titulo3": "Soluciones Robustas",
     "software.web.texto3": "Desarrollamos aplicaciones web dinámicas, SPA y en tiempo real, desde la base de datos hasta la interfaz de usuario.",
 
-    "mapa.pin1": "Toneladas totales: 159.199 <br> Prototipos totales: 132",
-    "mapa.pin2": "Toneladas totales: 75.211 <br> Prototipos totales: 169",
-    "mapa.pin3": "Toneladas totales: 52.000 <br> Prototipos totales: 19",
-    "mapa.pin4": "Toneladas totales: 52.253 <br> Prototipos totales: 17",
-    "mapa.pin5": "Toneladas totales: 24.700 <br> Prototipos totales: 5",
-    "mapa.pin6": "Toneladas totales: 159.199 <br> Prototipos totales: 132",
-    "mapa.pin7": "Prototipos totales: 72",
-    "mapa.pin8": "Toneladas totales: 26.000 <br> Prototipos totales: 5",
-    "mapa.pin9": "Toneladas totales: 365.534 <br> Prototipos totales: 259",
-    "mapa.pin10": "Toneladas totales: 4.537 <br> Prototipos totales: 57"
+    "mapa.pin1": "Toneladas totales: 159.199 <br> Prototipos totales: 132 <br> Proyectos: 23",
+    "mapa.pin2": "Toneladas totales: 147.211 <br> Prototipos totales: 169<br> Proyectos: 15",
+    "mapa.pin3": "Toneladas totales: 76.053 <br> Prototipos totales: 19<br> Proyectos: 3",
+    "mapa.pin4": "Toneladas totales: 52.253 <br> Prototipos totales: 17<br> Proyectos: 4",
+    "mapa.pin5": "Toneladas totales: 24.700 <br> Prototipos totales: 5<br> Proyectos: 2",
+    "mapa.pin7": "Prototipos totales: 72<br> Proyectos: 1",
+    "mapa.pin8": "Toneladas totales: 26.000 <br> Prototipos totales: 5<br> Proyectos: 1",
+    "mapa.pin9": "Toneladas totales: 365.534 <br> Prototipos totales: 259<br> Proyectos: 37",
+    "mapa.pin10": "Toneladas totales: 4.537 <br> Prototipos totales: 57<br> Proyectos: 2"
 
 }
 

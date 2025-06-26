@@ -7,11 +7,9 @@
     "header.idioma": "language",
     "header.servicios.servicio1": "Logistics Services",
     "header.servicios.servicio2": "Software Services",
-
     "footer.contacto": "Contact",
     "footer.privacidad": "Privacy Policy",
     "footer.menu": "Menu",
-
     "inicio.slogan": "<strong>Ensuring quality and efficiency in every supply</strong>",
     "inicio.nosotros": "About Us",
     "inicio.nosotros.paises": "Countries",
@@ -26,7 +24,6 @@
     "inicio.boton": "See projects",
     "inicio.seleccionarnos": "Years of experience in the sector",
     "boton": "Discover more",
-
     "inicio.servicios": "Services",
     "inicio.texto.estadisticas1": "Coordination of manufacturing, inspection, and supply in international projects.",
     "inicio.texto.estadisticas2": "Inspection of materials, quality, and processes in factories and specialized sites.",
@@ -35,7 +32,6 @@
     "inicio.texto.estadisticas5": "Technical control of critical materials for energy infrastructure.",
     "inicio.texto.estadisticas6": "Technical control of critical materials for energy infrastructure.",
     "inicio.fabricantes": "Manufacturers",
-
     "nosotros.slogan": "Building the future with safe and reliable supplies for major infrastructure projects worldwide",
     "nosotros.titulo": "Who are we?",
     "nosotros.boton": "⬇",
@@ -64,7 +60,6 @@
     "nosotros.software6": "In our company, we leverage the potential of MongoDB to build solutions that handle complex and constantly changing data, such as real-time web applications. The flexibility of NoSQL and the power of MongoDB allow us to design agile, secure, and efficient data architectures, ensuring that your information is a strategic asset that drives your business growth.",
     "nosotros.software7": "The development of native and multiplatform mobile applications that are not only visually appealing but also robust, intuitive, and optimized for performance. From the conception of the idea to the launch in app stores and ongoing support, our team of experts is dedicated to transforming your visions into mobile solutions that generate impact. Whether to improve internal productivity, offer innovative services to your clients, or create new sources of income, our mobile applications are designed to drive your success in the digital ecosystem.",
     "nosotros.software8": "In today's interconnected world, a robust and attractive web presence is essential for any business or project. Web development is the art and science of creating sites and applications that not only look good but also work perfectly, offering an exceptional user experience and achieving your digital goals.",
-
     "servicio.queHacemos": "What we do",
     "servicio.slogan": "We manage all key stages of your project, ensuring that supplies are designed, manufactured, dispatched, and received according to your needs.<br> We combine engineering, inspection, and logistics to guarantee quality, technical compliance, optimal timing, and maximum efficiency at every stage.",
     "servicio.slogan2": "We coordinate and manage the entire project logistics chain, from manufacturing to delivery on site.<br> Our real-time traceability platform, together with efficient planning, guarantees reliable deliveries, resource optimization, and maximum operational efficiency at every stage of the supply.",
@@ -85,7 +80,6 @@
     "servicio.etapas7": "Technical reception and control at destination",
     "servicio.etapas8": "Inventory management and on-site deliveries",
     "servicio.software1": "Software",
-
     "proyectos.clientes": "Clients",
     "proyectos.proyecto": "Projects",
     "proyectos.filtrot": "All",
@@ -100,7 +94,6 @@
     "proyecto.cliente": "Client:",
     "proyecto.fecha": "Date:",
     "proyecto.mas": "More projects",
-
     "contacto.form.nombre": "Name/Company",
     "contacto.form.telefono": "Phone",
     "contacto.form.asunto": "Subject",
@@ -109,7 +102,6 @@
     "contacto.form.ubicacion": "Location",
     "contacto.form.boton.enviar": "Send message",
     "contacto.enlace": "Book a call",
-
     "politica.titulo1": "Privacy Policies",
     "politica.sgi": "INTEGRATED MANAGEMENT SYSTEM POLICY",
     "politica.sgi.texto": "At Consorcio Qutub Minar SAS, a company dedicated to supervision and logistics control in strategic sectors, we reaffirm our commitment to quality, occupational health and safety, and environmental protection. Our Integrated Management System (SGI) is aligned with the requirements of ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 standards, and with applicable current regulations. We guide our actions to meet the needs of our clients and stakeholders through the following commitments:",
@@ -138,7 +130,6 @@
     "politica.pd": "WORK DISCONNECTION POLICY",
     "politica.pd.texto": "At Consorcio Qutub Minar SAS, we recognize the importance of ensuring the balance between the work and personal life of our collaborators as an essential pillar for their well-being and productivity. Therefore, we adopt the Work Disconnection Policy, in compliance with Law 2191 of 2022, which regulates this right in Colombia and establishes provisions applicable to all work modalities within the organization.<br> Work disconnection constitutes the right of collaborators not to attend communications or perform work activities outside their previously established working hours, except in exceptional or emergency situations, duly justified and authorized by the company. This commitment covers all collaborators, including those who perform their duties remotely or from home, where the boundaries between work and personal life can be more easily blurred.",
     "politica.pd.texto2": "At Consorcio Qutub Minar SAS, we are committed to planning activities, responsibilities, and work meetings within the stipulated schedule, promoting respect for the personal and family time of collaborators. Likewise, we promote an organizational culture that supports the right to work disconnection, as a measure to prevent psychosocial risks derived from excessive workload or lack of boundaries between professional responsibilities and private life.<br> This policy is integrated into the Occupational Health and Safety Management System (SG-SST), through which we implement strategies to mitigate risks associated with insufficient disconnection, especially in the context of teleworking and remote work. We also reinforce our commitment to continuous awareness and training of collaborators, so that they understand the importance of this right and its contribution to the development of a respectful and sustainable work environment.<br> At Consorcio Qutub Minar SAS, we reaffirm our commitment to current regulations and continuously work on implementing practices that promote the comprehensive well-being of our human team. This policy will be periodically reviewed to ensure its effectiveness and alignment with the organization's strategic objectives and the labor rights enshrined in Colombian legislation.",
-
     "software.titulo": "Services",
     "software.boton": "See more",
     "software.tituloc1": "Strategic Software",
@@ -157,7 +148,6 @@
     "software.servicio2": "Databases",
     "software.servicio3": "Mobile Applications",
     "software.servicio4": "Web Development",
-
     "software.metodologia": "Agile methodologies",
     "software.metodologia.titulo1": "Fast delivery",
     "software.metodologia.texto1": "Scrum allows incremental and frequent deliveries of functional software, accelerating time to market and return on investment.",
@@ -186,17 +176,14 @@
     "software.web.texto2": "MEAN applications offer high speed and scalability to handle high traffic and large volumes of data.",
     "software.web.titulo3": "Robust Solutions",
     "software.web.texto3": "We develop dynamic web applications, SPA and real-time, from the database to the user interface.",
-
-    "mapa.pin1": "Total tons: 159,199 <br> Total prototypes: 132",
-    "mapa.pin2": "Total tons: 75,211 <br> Total prototypes: 169",
-    "mapa.pin3": "Total tons: 52,000 <br> Total prototypes: 19",
-    "mapa.pin4": "Total tons: 52,253 <br> Total prototypes: 17",
-    "mapa.pin5": "Total tons: 24,700 <br> Total prototypes: 5",
-    "mapa.pin6": "Total tons: 159,199 <br> Total prototypes: 132",
-    "mapa.pin7": "Total prototypes: 72",
-    "mapa.pin8": "Total tons: 26,000 <br> Total prototypes: 5",
-    "mapa.pin9": "Total tons: 365,534 <br> Total prototypes: 259",
-    "mapa.pin10": "Total tons: 4,537 <br> Total prototypes: 57"
-
+    
+    "mapa.pin1": "Total tons: 159,199 <br> Total prototypes: 132 <br> Projects: 23",
+    "mapa.pin2": "Total tons: 147,211 <br> Total prototypes: 169<br> Projects: 15",
+    "mapa.pin3": "Total tons: 76,053 <br> Total prototypes: 19<br> Projects: 3",
+    "mapa.pin4": "Total tons: 52,253 <br> Total prototypes: 17<br> Projects: 4",
+    "mapa.pin5": "Total tons: 24,700 <br> Total prototypes: 5<br> Projects: 2",
+    "mapa.pin7": "Total prototypes: 72<br> Projects: 1",
+    "mapa.pin8": "Total tons: 26,000 <br> Total prototypes: 5<br> Projects: 1",
+    "mapa.pin9": "Total tons: 365,534 <br> Total prototypes: 259<br> Projects: 37",
+    "mapa.pin10": "Total tons: 4,537 <br> Total prototypes: 57<br> Projects: 2"
 }
-
