@@ -4109,6 +4109,33 @@ li.current_menu_item {
   z-index: 1;
 }
 
+.map-section .map-content .map-pin .pin-content2 {
+  position: absolute;
+  top: -50px;
+  right: -170px;
+  padding: 16px 16px;
+  min-width: 340px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  color: #ffffff;
+  background: #ffba08;
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.map-section .map-content .map-pin .pin-content2 .pin-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(4, auto);
+  gap: 10px 20px;
+  font-size: 14px;
+  text-align: left;
+}
+
 /* .map-section .map-content .map-pin:hover {
   width: 62px;
 } */
@@ -4121,6 +4148,20 @@ li.current_menu_item {
 }
 
 .map-section .map-content .active .pin-content {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: unset;
+          transform: unset;
+}
+
+.map-section .map-content .map-pin:hover .pin-content2 {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: unset;
+          transform: unset;
+}
+
+.map-section .map-content .active .pin-content2 {
   opacity: 1;
   visibility: visible;
   -webkit-transform: unset;
@@ -4177,6 +4218,51 @@ li.current_menu_item {
   left: 80%;
 }
 
+.map-section .map-content .pin-11 {
+  top: 48%;
+  left: 78%;
+}
+
+.map-section .map-content .pin-12 {
+  top: 50%;
+  left: 50%;
+}
+
+.map-section .map-content .pin-13 {
+  top: 56%;
+  left: 22%;
+}
+
+.map-section .map-content .pin-14 {
+  top: 38%;
+  left: 59%;
+}
+
+.map-section .map-content .pin-15 {
+  top: 50%;
+  left: 90%;
+}
+
+.map-section .map-content .pin-16 {
+  top: 50%;
+  left: 20%;
+}
+
+.map-section .map-content .pin-17 {
+  top: 63%;
+  left: 30%;
+}
+
+.map-section .map-content .pin-18 {
+  top: 25%;
+  left: 51%;
+}
+
+.map-section .map-content .pin-19 {
+  top: 80%;
+  left: 93%;
+}
+
 .map-section .map-content .pin-6 .pin-content {
   left: -170px;
   right: unset;
@@ -4187,16 +4273,50 @@ li.current_menu_item {
   .map-section .map-content .map-pin {
     width: 15px;
   }
-  .map-section .map-content .map-pin .pin-content {
-    position: absolute;
-    width: 120px;             
-    padding: 8px 5px;
-    font-size: 12px;
-    right: -100px;
-    top: -100px;
-    opacity: 1;
-    visibility: visible;
-  }
+.map-section .map-content .map-pin .pin-content {
+  position: absolute;
+  top: -50px;
+  right: -170px;
+  padding: 16px 16px;
+  min-width: 100px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  color: #ffffff;
+  background: #ffba08;
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+}
+  
+  .map-section .map-content .map-pin .pin-content2 {
+  position: absolute;
+  top: -50px;
+  right: -170px;
+  padding: 16px 16px;
+  min-width: 240px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  color: #ffffff;
+  background: #ffba08;
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.map-section .map-content .map-pin .pin-content2 .pin-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(4, auto);
+  gap: 10px 20px;
+  font-size: 10px;
+  text-align: left;
+}
   .map-section .map-content .active .pin-content {
     opacity: 0;
     visibility: hidden;
@@ -4223,6 +4343,46 @@ li.current_menu_item {
     right: unset;
     margin-right: 90px;
   }
+
+  .map-section .map-content .pin-8 .pin-content,
+  .map-section .map-content .pin-9 .pin-content,
+  .map-section .map-content .pin-10 .pin-content,
+  .map-section .map-content .pin-11 .pin-content,
+  .map-section .map-content .pin-12 .pin-content,
+  .map-section .map-content .pin-14 .pin-content,
+  .map-section .map-content .pin-15 .pin-content,
+  .map-section .map-content .pin-18 .pin-content,
+  .map-section .map-content .pin-19 .pin-content{
+  left: -200px;
+  right: unset;
+  margin-left: 90px;
+  }
+  .map-section .map-content .pin-15 .pin-content{
+     top: -120px;
+  } 
+  .map-section .map-content .pin-1 .pin-content2,
+  .map-section .map-content .pin-2 .pin-content2{
+    top: -140px;
+  }
+  .map-section .map-content .pin-3 .pin-content,
+  .map-section .map-content .pin-4 .pin-content,
+  .map-section .map-content .pin-19 .pin-content{
+    top: -140px;
+  }
+  .map-section .map-content .pin-9 .pin-content,
+  .map-section .map-content .pin-5 .pin-content,
+  .map-section .map-content .pin-10 .pin-content,
+    .map-section .map-content .pin-11 .pin-content{
+     top: -100px;
+  } 
+  
+  .map-section .map-content .pin-12 .pin-content,
+  .map-section .map-content .pin-13 .pin-content,
+  .map-section .map-content .pin-14 .pin-content,
+    .map-section .map-content .pin-17 .pin-content{
+    top: -90px;
+  }
+
 }
 
 /* politicas */

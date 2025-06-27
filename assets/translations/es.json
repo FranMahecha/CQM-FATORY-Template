@@ -187,15 +187,29 @@
     "software.web.titulo3": "Soluciones Robustas",
     "software.web.texto3": "Desarrollamos aplicaciones web dinámicas, SPA y en tiempo real, desde la base de datos hasta la interfaz de usuario.",
 
-    "mapa.pin1": "COLOMBIA <br> Toneladas totales: 159.199 <br> Prototipos totales: 132 <br> Proyectos: 23",
-    "mapa.pin2": "PERÚ <br> Toneladas totales: 147.211 <br> Prototipos totales: 169<br> Proyectos: 15",
-    "mapa.pin3": "CHILE <br> Toneladas totales: 76.053 <br> Prototipos totales: 19<br> Proyectos: 3",
-    "mapa.pin4": "PARAGUAY <br> Toneladas totales: 52.253 <br> Prototipos totales: 17<br> Proyectos: 4",
-    "mapa.pin5": "REPÚBLICA DOMINICANA <br> Toneladas totales: 24.700 <br> Prototipos totales: 5<br> Proyectos: 2",
-    "mapa.pin7": "FRANCIA <br> Prototipos totales: 72<br> Proyectos: 1",
-    "mapa.pin8": "TURQUÍA <br> Toneladas totales: 26.000 <br> Prototipos totales: 5<br> Proyectos: 1",
-    "mapa.pin9": "INDIA <br> Toneladas totales: 365.534 <br> Prototipos totales: 259<br> Proyectos: 37",
-    "mapa.pin10": "CHINA <br> Toneladas totales: 4.537 <br> Prototipos totales: 57<br> Proyectos: 2"
+    "mapa.fabricacion": "Despachado",
+    "mapa.destino": "Recibido",
+    "mapa.prototipos": "Prototipos",
+    "mapa.proyectos": "Proyectos",
+    "mapa.peso": "Peso (TON)",
+    "mapa.pin1": "<strong>COLOMBIA<s/trong> <br> Peso (TON): 176.269 <br> Prototipos: 132 <br> Proyectos: 23",
+    "mapa.pin2": "<strong>PERÚ</strong> <br> Peso (TON): 147.211 <br> Prototipos: 169<br> Proyectos: 15",
+    "mapa.pin3": "<strong>CHILE</strong> <br> Peso (TON): 64.000 <br> Prototipos: 19<br> Proyectos: 3",
+    "mapa.pin4": "<strong>PARAGUAY</strong> <br> Peso (TON): 16.255 <br> Prototipos: 17<br> Proyectos: 4",
+    "mapa.pin5": "<strong>REPÚBLICA DOMINICANA</strong> <br> Peso (TON): 3.622 <br> Prototipos: 5<br> Proyectos: 2",
+    "mapa.pin7": "<strong>FRANCIA</strong> <br> Prototipos: 28<br> Proyectos: 1",
+    "mapa.pin8": "<strong>TURQUÍA</strong> <br> Peso (TON): 26.000 <br> Prototipos: 5<br> Proyectos: 1",
+    "mapa.pin9": "<strong>INDIA</strong> <br> Peso (TON): 361.234 <br> Prototipos: 214<br> Proyectos: 37",
+    "mapa.pin10": "<strong>CHINA</strong> <br> Peso (TON): 4.474 <br> Prototipos: 7<br> Proyectos: 2",
+    "mapa.pin11": "<strong>MYANMAR</strong> <br> Peso (TON): 1.533 <br> Prototipos: 0<br> Proyectos: 1",
+    "mapa.pin12": "<strong>NIGERIA</strong> <br> Peso (TON): 4.954 <br> Prototipos: 0<br> Proyectos: 1",
+    "mapa.pin13": "<strong>PANAMÁ </strong><br> Peso (TON): 2.914 <br> Prototipos: 2<br> Proyectos: 3",
+    "mapa.pin14": "<strong>EGIPTO</strong> <br> Peso (TON): 500 <br> Prototipos: 2<br> Proyectos: 1",
+    "mapa.pin15": "<strong>FILIPINAS</strong> <br> Peso (TON): 10.000 <br> Prototipos: 10<br> Proyectos: 1",
+    "mapa.pin16": "<strong>HONDURAS</strong> <br> Peso (TON): 555 <br> Prototipos: 0<br> Proyectos: 1",
+    "mapa.pin17": "<strong>BRASIL</strong> <br> Peso (TON): 244 <br> Prototipos: 4<br> Proyectos: 1",
+    "mapa.pin18": "<strong>ITALIA</strong> <br> Peso (TON): 300 <br> Prototipos: 2<br> Proyectos: 1",
+    "mapa.pin19": "<strong>AUSTRALIA</strong> <br> Peso (TON): 32.102 <br> Prototipos: 13<br> Proyectos: 1"
 
 }
 
